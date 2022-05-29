@@ -7,12 +7,12 @@
         <link rel="icon" href="img/logo.jpg" >
     <link rel="stylesheet" href="style.css">
         
-    
-    
-    
     </head>
+    
+    
+    
     <body>
-        
+    <!--Header-->    
     <div class="navbar_big">
         
         <div class="navbar_st">
@@ -34,14 +34,14 @@
              
                 <div class="navbar_right">
                     <a href="https://github.com/cemerenb" class="nav_items" target="_blank">
-                        <img src="img/github.png" width="35" height="35" >
+                        <img src="img/github.png" width="25" height="25" >
                     </a>
                     <a href="https://twitter.com/ErenBadur"     class="nav_items" target="_blank">
-                        <img src="img/twitter.png" width="35" height="35" >
+                        <img src="img/twitter.png" width="25" height="25" >
                     </a>
                     
                     <div class="dropdown">
-                        <button id="myBtn" class="dropbtn"><img src="img/email.png" width="35"></button>
+                        <button id="myBtn" class="dropbtn"><img src="img/email.png" width="25"></button>
                             <div id="myDropdown" class="dropdown-content">
                                 <a1>cemerenbadur@hotmail.com</a1>
                                 
@@ -53,17 +53,81 @@
             </div>
         </div>
     </div>
+    <!--Body-->
+        
+    <div>
+        <div class="container_body_1">
+            <div class="button_area">
+                <button id="btn_slider_1" onclick="sliderFunction_1()" class="button_body" ><a1>Görsel 1</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
+                </button>
+                
+            </div>
+        </div>
+    </div>  
+    <div>
+        <div class="container_body_2">
+            <div class="button_area">
+                <button id="btn_slider_1" onclick="function()" class="button_body" ><a1>Görsel 1</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
+                </button>
+                
+            </div>
+        </div>
+    </div> 
+    <div>
+        <div class="container_body_3">
+            <div class="button_area">
+                <button id="btn_slider_1" onclick="" class="button_body" ><a1>Görsel 1</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
+                </button>
+                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
+                </button>
+                
+            </div>
+        </div>
+    </div>
         
         
-    
         
+        
+       
         <!--Script-->
     <script>
 
 document.getElementById("myBtn").onclick = function() {myFunction()};
+document.getElementById("btn_slider_1").onclick = function() {sliderFunction_1()};
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
+}
+function sliderFunction_1() {
+  document.getElementById("container_body_1").classList.toggle("show");
 }
 </script>
         
