@@ -4,16 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
     <title>A Sample Web Site For Learning JS</title>
-        <link rel="icon" href="img/logo.jpg" >
-    <link rel="stylesheet" href="style.css">
-        
+    <link rel="icon" href="img/logo.jpg" >
+    <link rel="stylesheet" href="style.css">  
     </head>
     
     
     
     <body>
     <!--Header-->    
-    <div class="navbar_big">
+
         
         <div class="navbar_st">
         
@@ -26,10 +25,10 @@
                 </div>
                 
                 <div class="menu">
-                    <a href="sdsdsd" >Projeler</a>
-                    <a href="sdsdsd" >Kariyer</a>
-                    <a href="sdsdsd" >Hakkımda</a>
-                    <a href="sdsdsd" >İletişim</a>
+                    <a href="projects.html" >Projeler</a>
+                    <a href="career" >Kariyer</a>
+                    <a href="about" >Hakkımda</a>
+                    <a href="contact" >İletişim</a>
                 </div>
              
                 <div class="navbar_right">
@@ -52,83 +51,70 @@
                 </div>
             </div>
         </div>
-    </div>
+ 
     <!--Body-->
         
-    <div>
-        <div class="container_body_1">
-            <div class="button_area">
-                <button id="btn_slider_1" onclick="sliderFunction_1()" class="button_body" ><a1>Görsel 1</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
-                </button>
-                
-            </div>
+        
+        <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/bg1.jpg" style="width:%100; border-radius: 15px;">
+            <div class="text"></div>
         </div>
-    </div>  
-    <div>
-        <div class="container_body_2">
-            <div class="button_area">
-                <button id="btn_slider_1" onclick="function()" class="button_body" ><a1>Görsel 1</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
-                </button>
-                
-            </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/bg2.png" style="width:%100; border-radius: 15px;">
+            <div class="text"></div>
         </div>
-    </div> 
-    <div>
-        <div class="container_body_3">
-            <div class="button_area">
-                <button id="btn_slider_1" onclick="" class="button_body" ><a1>Görsel 1</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 2</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 3</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 4</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 5</a1>
-                </button>
-                <button onclick="" class="button_body" ><a1>Görsel 6</a1>
-                </button>
-                
-            </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/bg3.png" style="width:%100; border-radius: 15px;">
+            <div class="text"></div>
         </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="script.js"></script>
         
         
         
         
-       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    
+        
+        
+
         <!--Script-->
-    <script>
-
+    <script language="javascript">
+    
 document.getElementById("myBtn").onclick = function() {myFunction()};
-document.getElementById("btn_slider_1").onclick = function() {sliderFunction_1()};
 
+
+        
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
-function sliderFunction_1() {
-  document.getElementById("container_body_1").classList.toggle("show");
-}
+
+        
+   
 </script>
         
         
