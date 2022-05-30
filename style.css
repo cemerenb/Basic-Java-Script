@@ -547,7 +547,7 @@ a1{
 @media screen and (max-width:960px){
     .img_bg{
         display: flex;
-        width: 400;
+        width: 350;
     }
     a3{
         
@@ -560,7 +560,7 @@ a1{
      color: black;
      background-color: transparent;
      font-family: sans-serif;
-     font-size: 17;
+     font-size: 13;
  } 
     
     a1{
@@ -712,10 +712,10 @@ a1{
         border-bottom-right-radius: 15px;
         top: 20;
         position: fixed;
-        width: 150px;
+        width: 100px;
         height: 100%;
         background-color: gray;
-        left: -150px;
+        left: -100px;
         transition: all 0.3s linear;
         
     }
@@ -731,7 +731,7 @@ a1{
         list-style: none;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 30px;
+        padding-left: 10px;
         margin-left: -40;
         border-bottom: 2px solid black;
         cursor: pointer;
@@ -747,7 +747,7 @@ a1{
 
         border-radius: 5px;
         position: absolute;
-        left: 160px;
+        left: 100px;
         top: 15;
     }
     .side_button:before{
