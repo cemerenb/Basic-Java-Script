@@ -19,6 +19,103 @@ a1{
 @media screen and (min-width: 1366px){
     
     
+    .container_body{
+        height: 2000;
+    }
+    
+    .footer_container{
+        background-color: gray;
+        margin-bottom: 0;
+        bottom: %0;
+        position: absolute;
+        width: 99%;
+        height: 240px;
+        text-align: center;
+        
+    }
+    
+    .ul1{
+        bottom: 15px;
+        vertical-align: middle;
+        background-color:#c9c8c3; 
+        border-radius: 20px;
+        margin: auto;
+        position: absolute;
+        width: 20%;
+        padding: 20;
+        margin-left: 200;
+        left: -.5%;
+        list-style: none;
+        font-family: sans-serif;
+    }
+    
+    .ul1 li1{
+        font-size: 25;
+        
+    }
+    
+    .ul1 li{
+        padding-top: 10px;
+        font-size: 15;
+        
+    }
+    
+    .ul2{
+        bottom: 15px;
+        position: absolute;
+        text-align: center;
+        background-color:#c9c8c3; 
+        margin: 0;
+        left: 39%;
+        border-radius: 20px;
+        height: 165px;
+        width: 20%;
+        list-style: none;
+        font-family: sans-serif;
+        padding: 22px;
+    }
+    
+    .ul2 li2{
+        font-size: 25;
+        
+    }
+    
+    .ul2 li{
+        margin-top: 30px;
+        font-size: 10;
+        
+    }
+    
+    
+    
+    .ul3{
+        bottom: 15px;
+        list-style: none;
+        margin: 0;
+        right: 100px;
+        position: absolute;
+        right:10%;
+        width: 20%;
+        background-color: #c9c8c3;
+        border-radius: 15px;
+        height: 166px;
+        padding: 22;
+    }
+    
+    .ul3 li2{
+        font-size: 25;
+        font-family: sans-serif;
+    
+        
+    }
+    
+    .ul3 li{
+        
+        font-size: 18;
+        
+    }
+    
+    
     .mySlides {
         display: none
     }
