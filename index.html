@@ -6,6 +6,7 @@
     <title>A Sample Web Site For Learning JS</title>
     <link rel="icon" href="img/logo.jpg" >
     <link rel="stylesheet" href="style.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     </head>
     
@@ -30,6 +31,7 @@
                     <a href="career" >Kariyer</a>
                     <a href="about" >Hakkımda</a>
                     <a href="contact" >İletişim</a>
+                   
                 </div>
              
                 <div class="navbar_right">
@@ -59,17 +61,17 @@
         <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="img/bg1.jpg" style="width:%100; border-radius: 15px;">
+            <img class="img_bg" src="img/bg1.jpg" style="width:%100; border-radius: 15px;">
             <div class="text"></div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="img/bg2.png" style="width:%100; border-radius: 15px;">
+            <img class="img_bg" src="img/bg2.png" style="width:%100; border-radius: 15px;">
             <div class="text"></div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="img/bg3.png" style="width:%100; border-radius: 15px;">
+            <img class="img_bg" src="img/bg3.png" style="width:%100; border-radius: 15px;">
             <div class="text"></div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -81,9 +83,19 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <script src="script.js"></script>
+    
         
-        
+    <div id="side_bar_mobile" onclick="toggleLeftSidebar()">
+        <ul>    
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="projects.html">Projeler</a></li>
+            <li><a href="career.html">Kariyer</a></li>
+            <li><a href="about.html">Hakkımda</a></li>
+            <li><a href="contact">İletişim</a></li>
+            
+        </ul>
+        <div class="side_button"></div>
+    </div>    
         
         
         
@@ -102,21 +114,8 @@
     
         
         
-
-        <!--Script-->
-    <script language="javascript">
-    
-document.getElementById("myBtn").onclick = function() {myFunction()};
-
-
-        
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-        
-   
-</script>
+<script src="script.js"></script>
+     
         
         
     </body>

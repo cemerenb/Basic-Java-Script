@@ -35,3 +35,20 @@ function showSlides(n) {
    // slides[slideIndex - 1].style.display = "block";
    // setTimeout(showSlides, 2000); // Change image every 2 seconds
 //}
+
+
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+
+        
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+
+
+function toggleLeftSidebar(){
+    
+    document.getElementById('side_bar_mobile').classList.toggle('active');
+}
