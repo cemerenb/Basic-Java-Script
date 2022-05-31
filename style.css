@@ -1,17 +1,21 @@
 
 
+
+body{
+    margin: 0;
+}
 a1{
     text-decoration: none;
      color: black;
      background-color: transparent;
-     font-family: sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 18; 
  }
  a{
      text-decoration: none;
      color: black;
      background-color: transparent;
-     font-family: sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 20;
  }
 
@@ -23,12 +27,15 @@ a1{
         height: 2000;
     }
     
+    
+    
+    /*------------footer---------------*/
     .footer_container{
         background-color: gray;
         margin-bottom: 0;
         bottom: %0;
         position: absolute;
-        width: 99%;
+        width: 100%;
         height: 240px;
         text-align: center;
         
@@ -42,11 +49,11 @@ a1{
         margin: auto;
         position: absolute;
         width: 20%;
-        padding: 20;
+        padding: 17;
         margin-left: 200;
-        left: -.5%;
+        left: 1%;
         list-style: none;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
     
     .ul1 li1{
@@ -71,7 +78,7 @@ a1{
         height: 165px;
         width: 20%;
         list-style: none;
-        font-family: sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding: 22px;
     }
     
@@ -82,11 +89,11 @@ a1{
     
     .ul2 li{
         margin-top: 30px;
-        font-size: 10;
+        font-size: 13;
         
     }
     
-    
+
     
     .ul3{
         bottom: 15px;
@@ -102,20 +109,20 @@ a1{
         padding: 22;
     }
     
-    .ul3 li2{
-        font-size: 25;
-        font-family: sans-serif;
-    
-        
-    }
+
     
     .ul3 li{
         
         font-size: 18;
         
     }
+    /*--------------footer-------------*/
     
     
+    
+    
+    
+    /*--------------slider-------------*/
     .mySlides {
         display: none
     }
@@ -196,15 +203,20 @@ a1{
       animation-duration: 1.5s;
     }
 
+    /*--------------slider-------------*/
 
 
-
+    
+    
+    
+    
+    /*-------------Dropdown------------*/
 
      .dropbtn {
        background-color: transparent;
        color: white;
        font-size: 20;
-         font-family: sans-serif;
+       font-family: 'Montserrat', sans-serif;
        border: none;
        cursor: pointer;
      }
@@ -236,8 +248,14 @@ a1{
 
      .show {display:block;}
 
+    /*-------------Dropdown------------*/
 
 
+    
+    
+    
+    
+    /*-------------Navigation------------*/
 
      .nav_items{
          margin: 5;
@@ -332,6 +350,12 @@ a1{
         background-color: blueviolet;
     }
 
+/*-------------Navigation------------*/    
+
+    
+  
+    
+    
         @-webkit-keyframes fade {
       from {opacity: .4} 
       to {opacity: 1}
@@ -358,8 +382,138 @@ a1{
 
 
 
+
+
+
         
 @media screen and (min-width:960px) and (max-width:1365px){
+    
+   .container_body{
+        height: 2000;
+    } 
+    
+    /*------------footer---------------*/
+    .footer_container{
+        background-color: gray;
+        margin-bottom: 0;
+        bottom: %0;
+        position: absolute;
+        width: 100%;
+        height: 170px;
+        text-align: center;
+        
+    }
+    
+    .ul1{
+        bottom: 15px;
+        vertical-align: middle;
+        background-color:#c9c8c3; 
+        border-radius: 20px;
+        margin: auto;
+        position: absolute;
+        width: 20%;
+        padding: 8;
+        left: 10%;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .ul1 li1{
+        font-size: 18;
+        
+    }
+    
+    .ul1 li{
+        padding-top: 5px;
+        font-size: 13;
+        
+    }
+    
+    .ul2{
+        bottom: 15px;
+        position: absolute;
+        text-align: center;
+        background-color:#c9c8c3; 
+        margin: 0;
+        left: 39%;
+        border-radius: 20px;
+        height: 100px;
+        width: 18%;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        padding: 22px;
+    }
+    
+    .footer_logo{
+        max-width: 60px;
+        
+    }
+    .ul2 li{
+        margin-top: 10px;
+        font-size: 12;
+        
+    }
+    
+
+    
+    .ul3{
+
+        bottom: 15px;
+        list-style: none;
+        margin: 0;
+        right: 10%;
+        position: absolute;
+        width: 20%;
+        background-color: #c9c8c3;
+        border-radius: 15px;
+        height: 107px;
+        padding: 18;
+    }
+    
+
+    .footer_ul3{
+        font-size: 17px;
+        font-family:  'Montserrat', sans-serif;
+    }
+    
+    
+    .footer_photo{
+        
+        position: absolute;
+        margin-top: 20px;
+        left: 30px;
+    }
+    
+    .footer_photo_2{
+        
+        position: absolute;
+        margin-top: 20px;
+        left: 100px;
+    }
+    
+    
+    .footer_photo_3{
+        
+        position: absolute;
+        margin-top: 20px;
+        left: 170px;
+    }
+    /*--------------footer-------------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .img_bg{
         display: flex;
         width: 800;
@@ -367,8 +521,8 @@ a1{
     a{
      text-decoration: none;
      color: black;
-     background-color: transparent;
-     font-family: sans-serif;
+     backgroud-color: transparent;
+     font-family: 'Montserrat', sans-serif;
      font-size: 17;
  } 
     
@@ -376,7 +530,7 @@ a1{
     text-decoration: none;
      color: black;
      background-color: transparent;
-     font-family: sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 12; 
  }       
         .mySlides {
@@ -467,7 +621,7 @@ a1{
        background-color: transparent;
        color: white;
        font-size: 20;
-         font-family: sans-serif;
+       font-family: 'Montserrat', sans-serif;
        border: none;
        cursor: pointer;
      }
@@ -642,6 +796,142 @@ a1{
 
 
 @media screen and (max-width:960px){
+    
+    
+    
+    
+    
+    
+    
+    .container_body{
+        height: 2000;
+    } 
+    
+    /*------------footer---------------*/
+    .footer_container{
+        background-color: gray;
+        margin-bottom: 0;
+        bottom: %0;
+        position: absolute;
+        width: 100%;
+        height: 170px;
+        text-align: center;
+        
+    }
+    
+    .ul1{
+        bottom: 15px;
+        vertical-align: middle;
+        background-color:transparent; 
+        border-radius: 20px;
+        margin: auto;
+        position: absolute;
+        width: 30%;
+        padding: 8;
+        left: 10%;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .ul1 li1{
+        font-size: 18;
+        
+    }
+    
+    .ul1 li{
+        padding-top: 5px;
+        font-size: 13;
+        
+    }
+    
+    .ul2{
+        bottom: 15px;
+        position: absolute;
+        text-align: center;
+        background-color:transparent; 
+        margin: 0;
+        left: 39%;
+        border-radius: 20px;
+        height: 110px;
+        width: 18%;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        padding: 22px;
+    }
+    
+    .footer_logo{
+        max-width: 60px;
+        
+    }
+    .ul2 li{
+        margin-top: 10px;
+        font-size: 10;
+        
+    }
+    
+
+    
+    .ul3{
+
+        bottom: 15px;
+        list-style: none;
+        margin: 0;
+        right: 10%;
+        position: absolute;
+        width: 12%;
+        background-color: transparent;
+        border-radius: 15px;
+        height: 107px;
+        padding: 18;
+    }
+    
+
+    .footer_ul3{
+        font-size: 17px;
+        font-family:  'Montserrat', sans-serif;
+    }
+    
+    
+    .footer_photo1{
+        
+        
+        position: absolute;
+        margin-top: 20px;
+        left: -15px;
+    }
+    .footer_img1{
+        max-width: 25px;
+    }
+    
+    .footer_photo_2{
+        
+        position: absolute;
+        margin-top: 18px;
+        left: 30px;
+    }
+    .footer_img2{
+        max-width: 25px;
+    }
+    
+    
+    .footer_photo_3{
+        
+        position: absolute;
+        margin-top: 20px;
+        left: 75px;
+    }
+    .footer_img3{
+        max-width: 26px;
+    }
+    
+    /*--------------footer-------------*/
+    
+    
+    
+    
+    
+    
+    
     .img_bg{
         display: flex;
         width: 350;
@@ -650,13 +940,13 @@ a1{
         
         text-decoration: none;
         color: white;
-        font-family: sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
     a{
      text-decoration: none;
      color: black;
      background-color: transparent;
-     font-family: sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 13;
  } 
     
@@ -664,7 +954,7 @@ a1{
     text-decoration: none;
      color: black;
      background-color: transparent;
-     font-family: sans-serif;
+     font-family: 'Montserrat', sans-serif;
      font-size: 12; 
  }       
         .mySlides {
