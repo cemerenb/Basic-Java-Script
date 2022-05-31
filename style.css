@@ -830,7 +830,7 @@ a1{
         position: absolute;
         width: 30%;
         padding: 8;
-        left: 10%;
+        left: 0%;
         list-style: none;
         font-family: 'Montserrat', sans-serif;
     }
@@ -846,13 +846,13 @@ a1{
         
     }
     
-    .ul2{
+    .ul2{vertical-align: middle;
         bottom: 15px;
         position: absolute;
         text-align: center;
         background-color:transparent; 
         margin: 0;
-        left: 39%;
+        left: 38%;
         border-radius: 20px;
         height: 110px;
         width: 18%;
@@ -878,7 +878,7 @@ a1{
         bottom: 15px;
         list-style: none;
         margin: 0;
-        right: 10%;
+        right: 4%;
         position: absolute;
         width: 18%;
         background-color: transparent;
