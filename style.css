@@ -830,7 +830,7 @@ a1{
         position: absolute;
         width: 30%;
         padding: 8;
-        left:1%;
+        left:3%;
         list-style: none;
         font-family: 'Montserrat', sans-serif;
     }
@@ -852,7 +852,7 @@ a1{
         text-align: center;
         background-color:transparent; 
         margin: 0;
-        left: 34.5%;
+        left: 35.25%;
         border-radius: 20px;
         height: 110px;
         width: 18%;
