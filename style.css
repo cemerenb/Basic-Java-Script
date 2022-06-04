@@ -193,29 +193,51 @@ a1{
     }
     
     
-    .cv{
+    
+    .cv1{
+    left: 35%;
     border-radius: 40px;
     position: absolute;
-    top: 60%;
+    top: 70%;
     text-align: center;
-    left: 23%;
-    right: 25%;
-    width:auto;
+    width:10%;
     height: 45px;
 }
-    .cv a{
+    .cv1 a{
         
         padding-right: 0;
-        font-size: 15px;
+        font-size: 13px;
     border-radius: 40px;
     position: absolute;
-    top: -8%;
+    top: -20%;
     text-align: center;
-    left: -2%;
+    
     right: 0%;
     width:100%;
     height: 35%;
 }
+  .cv2{
+    left: 55%;
+    border-radius: 40px;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    width:10%;
+    height: 45px;
+}
+    .cv2 a{
+        
+        padding-right: 0;
+        font-size: 13px;
+    border-radius: 40px;
+    position: absolute;
+    top: -20%;
+    text-align: center;
+    
+    right: 0%;
+    width:100%;
+    height: 35%;
+}  
     .cv_download{
     border-radius: 40px;
     position: absolute;
@@ -834,29 +856,50 @@ a1{
     }
     
     
-    .cv{
+        .cv1{
+    left: 35%;
     border-radius: 40px;
     position: absolute;
-    top: 63%;
+    top: 80%;
     text-align: center;
-    left: 23%;
-    right: 25%;
-    width:auto;
+    width:10%;
     height: 45px;
 }
-    .cv a{
+    .cv1 a{
         
         padding-right: 0;
-        font-size: 15px;
+        font-size: 13px;
     border-radius: 40px;
     position: absolute;
-    top: -8%;
+    top: -20%;
     text-align: center;
-    left: -2%;
+    
     right: 0%;
     width:100%;
     height: 35%;
 }
+  .cv2{
+    left: 55%;
+    border-radius: 40px;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    width:10%;
+    height: 45px;
+}
+    .cv2 a{
+        
+        padding-right: 0;
+        font-size: 13px;
+    border-radius: 40px;
+    position: absolute;
+    top: -20%;
+    text-align: center;
+    
+    right: 0%;
+    width:100%;
+    height: 35%;
+} 
     
     .cv_download{
     border-radius: 40px;
@@ -1330,49 +1373,49 @@ a1{
     /*-----------about-----------------*/
     
     .contact1 img{
-        top: 15%;
-        left: 30%;
+        top: 16%;
+        left: 16%;
         position: absolute;
         width: 50px;
         
     }
     
     .contact1 a{
-        top: 16.4%;
-        font-size: 20px;
-        left: 40%;
+        top: 17.4%;
+        font-size: 16px;
+        left: 27%;
         position: absolute;
         
     }
     
     .contact2 img{
         top: 24%;
-        left: 14%;
+        left: 16%;
         position: absolute;
         width: 45px;
         
     }
     
     .contact2 a{
-        top: 25.5%;
-        font-size: 20px;
-        left: 24%;
+        top: 26.5%;
+        font-size: 16px;
+        left: 27%;
         position: absolute;
         
     }
     
     .contact3 img{
         top: 33%;
-        left: 19%;
+        left: 16%;
         position: absolute;
         width: 45px;
         
     }
     
     .contact3 a{
-        top: 34%;
-        font-size: 20px;
-        left: 30%;
+        top: 35%;
+        font-size: 16px;
+        left: 27%;
         position: absolute;
         
     }
@@ -1386,8 +1429,8 @@ a1{
     }
     
     .contact4 a{
-        top: 43%;
-        font-size: 20px;
+        top: 44%;
+        font-size: 16px;
         left: 27%;
         position: absolute;
         
@@ -1402,8 +1445,8 @@ a1{
     }
     
     .contact5 a{
-        top: 52%;
-        font-size: 20px;
+        top: 53%;
+        font-size: 16px;
         left: 27%;
         position: absolute;
         
@@ -1418,6 +1461,7 @@ a1{
     
     
     .about h1{
+        font-size: 15px;
         margin-top: 0;
         font-family: 'Montserrat', sans-serif;
         position: absolute;
@@ -1491,32 +1535,58 @@ a1{
         
         
     }
-    .cv{
+    
+    .profile_img img{
+        width: 40%;
+    }
+    .cv1{
+    left: 10%;
     border-radius: 40px;
     position: absolute;
-    top: 65%;
+    top: 78%;
     text-align: center;
-    width:50%;
+    width:25%;
     height: 45px;
 }
-    .cv a{
+    .cv1 a{
         
         padding-right: 0;
         font-size: 13px;
     border-radius: 40px;
     position: absolute;
-    top: -8%;
+    top: -20%;
     text-align: center;
-    left: -2%;
+    
     right: 0%;
     width:100%;
     height: 35%;
 }
+  .cv2{
+    left: 65%;
+    border-radius: 40px;
+    position: absolute;
+    top: 78%;
+    text-align: center;
+    width:25%;
+    height: 45px;
+}
+    .cv2 a{
+        
+        padding-right: 0;
+        font-size: 13px;
+    border-radius: 40px;
+    position: absolute;
+    top: -20%;
+    text-align: center;
     
+    right: 0%;
+    width:100%;
+    height: 35%;
+}  
     .cv_download{
     border-radius: 40px;
     position: absolute;
-    top: 55%;
+    top: 60%;
     text-align: center;
     left: 23%;
     right: 25%;
@@ -1564,7 +1634,7 @@ a1{
         position: absolute;
         top: 40px;
         bottom: 20%;
-        height: 35%;
+        height: 40%;
         width: 30%;
         border-radius: 20px;
         border-style: solid;
@@ -1577,7 +1647,8 @@ a1{
         width: 60%;
     }
     .project_header a{
-        font-size: 30px;
+        
+        font-size: 20px;
     }
     .project{
         position: absolute;
@@ -1594,7 +1665,7 @@ a1{
        font-size: 10px;
         left: 45%;
         position: absolute;
-        top: 170px;
+        top: 115px;
         margin: auto;
         width: 20%;
 
