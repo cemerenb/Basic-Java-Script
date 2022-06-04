@@ -24,6 +24,110 @@ a1{
     }
 
 @media screen and (min-width: 1366px){
+    
+    /*-----------contact-----------------*/
+    
+    .contact1 img{
+        top: 25%;
+        left: 20%;
+        position: absolute;
+        width: 50px;
+        
+    }
+    
+    .contact1 a{
+        top: 26.4%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    .contact2 img{
+        top: 34%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact2 a{
+        top: 35.5%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    .contact3 img{
+        top: 43%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact3 a{
+        top: 44%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    .contact4 img{
+        top: 52%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact4 a{
+        top: 53%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    .contact5 img{
+        top: 61%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact5 a{
+        top: 62%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    /*-----------contact-----------------*/
+    
+    /*-----------about-----------------*/
+    
+    
+    
+    .about h1{
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        text-align: center;
+        width: 26%;
+        left: 37%;
+        right: 37%;
+        top: 450px;
+    }
+    
+    
+    
+    
+    /*-----------about-----------------*/
     /*---------project_page------------*/
     
     .project_container{
@@ -88,6 +192,30 @@ a1{
         
     }
     
+    
+    .cv{
+    border-radius: 40px;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    left: 23%;
+    right: 25%;
+    width:auto;
+    height: 45px;
+}
+    .cv a{
+        
+        padding-right: 0;
+        font-size: 15px;
+    border-radius: 40px;
+    position: absolute;
+    top: -8%;
+    text-align: center;
+    left: -2%;
+    right: 0%;
+    width:100%;
+    height: 35%;
+}
     .cv_download{
     border-radius: 40px;
     position: absolute;
@@ -164,7 +292,7 @@ a1{
         height: 20%;
     }
     .container_body{
-        height: 100%;
+        height: 80%;
     }
     p1{
        font-family:  'Montserrat', sans-serif; 
@@ -196,6 +324,7 @@ a1{
     }
     
     .ul1{
+        height: 175px;
         bottom: 15px;
         vertical-align: middle;
         background-color:#c9c8c3; 
@@ -365,45 +494,7 @@ a1{
     
     
     
-    /*-------------Dropdown------------*/
-
-     .dropbtn {
-       background-color: transparent;
-       color: white;
-       font-size: 20;
-       font-family: 'Montserrat', sans-serif;
-       border: none;
-       cursor: pointer;
-     }
-
-     .dropbtn:hover, .dropbtn:focus {
-       background-color: transparent;
-     }
-
-     .dropdown {
-       position: relative;
-       display: inline-block;
-     }
-
-     .dropdown-content {
-         margin-top: 30px;
-       left: -275;
-       display: none;
-       position: absolute;
-       background-color: white;
-       width: 300px;
-       padding: 15px;
-         text-align: center;
-       overflow: auto;
-       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-         border-radius: 10px;
-     }
-
-     .dropdown-content a:hover {background-color: #f1f1f1}
-
-     .show {display:block;}
-
-    /*-------------Dropdown------------*/
+    
 
 
     
@@ -413,11 +504,11 @@ a1{
     /*-------------Navigation------------*/
 
      .nav_items{
-         margin: 5;
+         margin: 15;
          display: inline-flex;
      }
      .navbar_right{
-         margin-right: 20;;
+         margin-right: 120;
          margin-top: 20;
          margin-left: auto;
          display: flex;
@@ -443,17 +534,48 @@ a1{
         
     }
 
-     .menu{
-
-         display: flex;
-         align-content: center;
-         margin-top: auto;
-         margin-bottom: auto;
-         margin-right: auto;
-         text-decoration: none;
-         text-indent: 120;
-
-     }
+    .key1{
+        width: 120px;
+        margin-left: 0;
+        padding-right: 40;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        top: 50px;;
+        position: absolute;
+        left: 33%;
+        
+    }
+    
+    .key3{
+        width: 120px;
+        margin-left: 0;
+        padding-right: 40;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        top: 50px;;
+        position: absolute;
+        left: 45.6%;
+    }
+    .key4{
+        width: 120px;
+        margin-left: 0;
+        padding-right: 40;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        top: 50px;;
+        position: absolute;
+        margin: 0;
+        position: absolute;
+        left: 57%;
+        
+    }
+    .menu{
+        width: 1000px;
+        margin-top: 30px;
+        text-indent: 50px;
+        left: 20%;
+    }
+    
 
      .logo{
          margin: auto;
@@ -543,6 +665,110 @@ a1{
         
 @media screen and (min-width:960px) and (max-width:1365px){
     
+    
+    /*-----------contact-----------------*/
+    
+    .contact1 img{
+        top: 25%;
+        left: 20%;
+        position: absolute;
+        width: 50px;
+        
+    }
+    
+    .contact1 a{
+        top: 26.4%;
+        font-size: 20px;
+        left: 26%;
+        position: absolute;
+        
+    }
+    
+    .contact2 img{
+        top: 34%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact2 a{
+        top: 35.5%;
+        font-size: 20px;
+        left: 26%;
+        position: absolute;
+        
+    }
+    
+    .contact3 img{
+        top: 43%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact3 a{
+        top: 44%;
+        font-size: 20px;
+        left: 26%;
+        position: absolute;
+        
+    }
+    
+    .contact4 img{
+        top: 52%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact4 a{
+        top: 53%;
+        font-size: 20px;
+        left: 26%;
+        position: absolute;
+        
+    }
+    
+    .contact5 img{
+        top: 61%;
+        left: 20%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact5 a{
+        top: 62%;
+        font-size: 20px;
+        left: 26%;
+        position: absolute;
+        
+    }
+    
+    /*-----------contact-----------------*/
+    
+    /*-----------about-----------------*/
+    
+    
+    
+    .about h1{
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        text-align: center;
+        width: 26%;
+        left: 37%;
+        right: 37%;
+        top: 450px;
+    }
+    
+    
+    
+    
+    /*-----------about-----------------*/
     /*---------project_page------------*/
     
     .project_container{
@@ -607,10 +833,35 @@ a1{
         
     }
     
+    
+    .cv{
+    border-radius: 40px;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    left: 23%;
+    right: 25%;
+    width:auto;
+    height: 45px;
+}
+    .cv a{
+        
+        padding-right: 0;
+        font-size: 15px;
+    border-radius: 40px;
+    position: absolute;
+    top: -8%;
+    text-align: center;
+    left: -2%;
+    right: 0%;
+    width:100%;
+    height: 35%;
+}
+    
     .cv_download{
     border-radius: 40px;
     position: absolute;
-    top: 55%;
+    top: 63%;
     text-align: center;
     left: 23%;
     right: 25%;
@@ -717,6 +968,7 @@ a1{
     }
     
     .ul1{
+        height: 127px;
         bottom: 15px;
         vertical-align: middle;
         background-color:#c9c8c3; 
@@ -931,47 +1183,11 @@ a1{
 
 
 
-     .dropbtn {
-       background-color: transparent;
-       color: white;
-       font-size: 20;
-       font-family: 'Montserrat', sans-serif;
-       border: none;
-       cursor: pointer;
-     }
-
-     .dropbtn:hover, .dropbtn:focus {
-       background-color: transparent;
-     }
-
-     .dropdown {
-       position: relative;
-       display: inline-block;
-     }
-        
-     .dropdown-content {
-         margin-top: 30px;
-       left: -180;
-       display: none;
-       position: absolute;
-       background-color: white;
-       width: 200px;
-       padding: 10px;
-         text-align: center;
-       overflow: auto;
-       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-         border-radius: 10px;
-     }
-
-     .dropdown-content a:hover {background-color: #f1f1f1}
-
-     .show {display:block;}
-
 
 
 
      .nav_items{
-         margin: 5;
+         margin: 10;
          display: inline-flex;
      }
      .navbar_right{
@@ -1111,7 +1327,111 @@ a1{
 
 @media screen and (max-width:960px){
     
+    /*-----------about-----------------*/
     
+    .contact1 img{
+        top: 15%;
+        left: 30%;
+        position: absolute;
+        width: 50px;
+        
+    }
+    
+    .contact1 a{
+        top: 16.4%;
+        font-size: 20px;
+        left: 40%;
+        position: absolute;
+        
+    }
+    
+    .contact2 img{
+        top: 24%;
+        left: 14%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact2 a{
+        top: 25.5%;
+        font-size: 20px;
+        left: 24%;
+        position: absolute;
+        
+    }
+    
+    .contact3 img{
+        top: 33%;
+        left: 19%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact3 a{
+        top: 34%;
+        font-size: 20px;
+        left: 30%;
+        position: absolute;
+        
+    }
+    
+    .contact4 img{
+        top: 42%;
+        left: 16%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact4 a{
+        top: 43%;
+        font-size: 20px;
+        left: 27%;
+        position: absolute;
+        
+    }
+    
+    .contact5 img{
+        top: 51%;
+        left: 16%;
+        position: absolute;
+        width: 45px;
+        
+    }
+    
+    .contact5 a{
+        top: 52%;
+        font-size: 20px;
+        left: 27%;
+        position: absolute;
+        
+    }
+    
+    /*-----------contact-----------------*/
+    
+    
+    
+    /*-----------about-----------------*/
+    
+    
+    
+    .about h1{
+        margin-top: 0;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        text-align: center;
+        width: 70%;
+        left: 15%;
+        right: 15%;
+        top: 450px;
+    }
+    
+    
+    
+    
+    /*-----------about-----------------*/
     
     /*---------project_page------------*/
     
@@ -1122,7 +1442,7 @@ a1{
     }
     .project_container_left{
         position: absolute;
-        width: 30.2%;
+        width: 36.2%;
         height: 100%;
         background-color: #c9c8c3;
         border-top-right-radius: 30px;
@@ -1161,16 +1481,37 @@ a1{
         
     }
     .project_container_left .link a{
+        
        position: absolute;
         top: 50%;
+        height: 40px;
+        font-size: 11px;
         text-align: center;
-        width: 100%;
-        height: 5%;
-        font-size: 8px;
         font-family: 'Montserrat', sans-serif; 
         
         
     }
+    .cv{
+    border-radius: 40px;
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    width:50%;
+    height: 45px;
+}
+    .cv a{
+        
+        padding-right: 0;
+        font-size: 13px;
+    border-radius: 40px;
+    position: absolute;
+    top: -8%;
+    text-align: center;
+    left: -2%;
+    right: 0%;
+    width:100%;
+    height: 35%;
+}
     
     .cv_download{
     border-radius: 40px;
@@ -1201,7 +1542,7 @@ a1{
     
     .project_container_right{
         position: absolute;
-        width: 68%;
+        width: 60%;
         right: 0;
         background-color: blue;
         
@@ -1281,7 +1622,7 @@ a1{
     }
     
     .ul1{
-        bottom: 15px;
+        bottom: 30px;
         vertical-align: middle;
         background-color:transparent; 
         border-radius: 20px;
